@@ -11,7 +11,7 @@ class Printer:
             message = "Verbose " + message
         if self.upper:
             message = message.upper()
-        print message
+        print(message)
 
 
 class ExampleProgram(ICL.Program):
